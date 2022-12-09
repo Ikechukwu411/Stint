@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="logo">
+        <div>
+            <a href="../index.html" class="logopng"><img src="./image/5.svg" alt="" width="50%"></a>
+        </div>
+        <div class="logoTxt">
+            <p>Don't have an account?</p>
+            <div>
+                <a href="../StintAd-SignUp/index.html" class="signUp">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <form action="" id="form">
+        <div class="title">Welcome Back!</div>
+
+        <!-- 
+            !UserName Goes Here
+         -->
+        <div>
+          <label for="username">User Name:</label>
+          <i class="fas fa-user"></i>
+          <input type="text" name="username" id="username" placeholder="John12345"/>
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+          <div class="error"></div>
+        </div>
+
+        <!-- 
+            !Password Goes Here
+         -->
+        <div>
+          <label for="password">Password:</label>
+          <i class="fas fa-lock"></i>
+          <input type="password" name="password" id="password" placeholder="Password here"/>
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+          <div class="error"></div>
+        </div>
+        <button type="submit" id="submit">log In</button>
+        <div class="forgot__password">
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+            <div>
+              <a href="">forgot password?</a>
+            </div>
+        </div>
+      </form>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

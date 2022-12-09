@@ -1,0 +1,148 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to top right, rgba(4, 0, 255, 0.671),rgb(207, 207, 207))
+}
+.container{
+  width: 80%;
+  margin: 10rem auto;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+}
+.logo{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+.logoTxt{
+  display: flex;
+}
+.logoTxt p{
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  color: rgb(17, 17, 85);
+  font-weight: bold;
+  padding-top: 1rem;
+}
+.signUp{
+  padding: 1rem 2rem;
+  background-color: rgb(17, 17, 85);
+  color: white;
+  border-radius: .7rem;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+/* 
+! form styling
+*/
+
+form {
+  max-width: 40rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 5rem;
+  background-color: white;
+  border-radius: .7rem;
+}
+.title{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+form > div > input{
+  width: 100%;
+  border-radius: .8rem;
+  height: 4rem;
+  outline: none;
+  border: 1px solid #c4c4c4;
+  padding: 0 3rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+label{
+  display: block;
+  margin-bottom: .5rem;
+  font-size: 2rem;
+}
+
+form div{
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+input:focus{
+  border: 2px solid rgb(17, 17, 85);
+}
+
+/* 
+!for icon
+*/
+
+form div i{
+  font-size: 1.4rem;
+  position: absolute;
+  padding: 1rem;
+}
+
+.success-icon,.failure-icon{
+  right: 0;
+  opacity: 0;
+}
+.failure-icon, .error{
+  color: red;
+}
+.success-icon{
+  color: green;
+}
+.error{
+  font-size: 1.5rem;
+  margin-top: .5rem;
+}
+
+/* 
+!for button
+*/
+
+button{
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 4.5rem;
+  background-color: rgb(17, 17, 85);
+  border: 1px solid rgb(17, 17, 85);
+  border-radius: .7rem;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+.forgot__password{
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.forgot__password a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(17, 17, 85);;
+}
+.forgot__password label{
+  font-size: 1.4rem;
+  padding: 1rem;
+}
