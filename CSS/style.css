@@ -286,7 +286,7 @@ h2 {
 .aboutUsText p {
   max-width: 90%;
   margin: auto auto;
-  padding: 6rem;
+  padding: 2rem;
   font-size: 2rem;
   letter-spacing: 0.2rem;
   color: #666;
@@ -562,7 +562,7 @@ footer{
   overflow-x: auto;
 }
 .Investment__container::-webkit-scrollbar{
-  display: none;
+  /* display: none; */
 }
 
 .Investment__container .item{
@@ -772,6 +772,14 @@ footer{
   .aboutUsText {
     width: 50%;
     margin: 5rem auto;
+  }
+  .aboutUsText p {
+    max-width: 90%;
+    margin: auto auto;
+    padding: 6rem;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    color: #666;
   }
   .Guide {
     width: 80%;
