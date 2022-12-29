@@ -566,7 +566,7 @@ footer{
   overflow-x: auto;
 }
 .Investment__container::-webkit-scrollbar{
-  /* display: none; */
+  display: none;
 }
 
 .Investment__container .item{
